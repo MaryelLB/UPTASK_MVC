@@ -1,2 +1,31 @@
-includes/.env
-node_modules
+# Dependencias de PHP
+/vendor/
+
+# Dependencias de Node.js
+/node_modules/
+
+# Archivos compilados
+/public/build/css/
+/public/build/js/
+/public/build/*.map
+
+# Archivos de configuración local
+.env
+.env.*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs y errores
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+composer.lock
+
+# Otros
+.idea/
+.vscode/
+*.bak
+*.swp
